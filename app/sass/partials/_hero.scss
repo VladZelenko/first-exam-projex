@@ -1,0 +1,11 @@
+.hero {
+	padding: 255px 0;
+	width: 100%;
+	color: $secondary_font_color;
+	h2.title {font: 700 40px $primary_font;}
+	p {font: 400 20px $secondary_font;}
+	ul {
+		display: flex;
+		flex-flow: row wrap;
+	}
+}

@@ -1,0 +1,18 @@
+.hero-btn {
+	margin:  20px;
+	display: block;
+	width: 170px;
+	color: $primary_font_color;
+	font: 700 18px/40px $primary_font;
+	background-color: $accent_color;
+	border: 3px solid $accent_color;
+	border-radius: 9px;
+	text-align: center;
+	&:hover, &:focus {
+		text-decoration: none;
+		color: $secondary_font_color;
+		background-color: $primary_font_color;
+		border: 3px solid $accent_color;
+		transition: all .4s ease-in-out;
+	}
+}

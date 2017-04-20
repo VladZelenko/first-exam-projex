@@ -66,7 +66,7 @@ img {
   height: auto; }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Droid Sans", sans-serif; }
 
 @font-face {
   font-family: "font-awesome";
@@ -8585,7 +8585,7 @@ button.close {
   .overlay__content li a {
     padding: 5px 35px;
     color: #ffffff;
-    font: 600 18px "Roboto", sans-serif;
+    font: 600 18px "Droid Sans", sans-serif;
     cursor: pointer; }
     .overlay__content li a:hover {
       text-decoration: none;
@@ -8594,6 +8594,44 @@ button.close {
               border-radius: 10px 9px 9px 10px;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out; }
+
+.hero {
+  padding: 255px 0;
+  width: 100%;
+  color: #000000; }
+  .hero h2.title {
+    font: 700 40px "Droid Sans", sans-serif; }
+  .hero p {
+    font: 400 20px "Quicksand", sans-serif; }
+  .hero ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+
+.hero-btn {
+  margin: 20px;
+  display: block;
+  width: 170px;
+  color: #ffffff;
+  font: 700 18px/40px "Droid Sans", sans-serif;
+  background-color: #ff5959;
+  border: 3px solid #ff5959;
+  -webkit-border-radius: 9px;
+          border-radius: 9px;
+  text-align: center; }
+  .hero-btn:hover, .hero-btn:focus {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ff5959;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
 
 @media only screen and (max-width: 1200px) {
   .overlay {
