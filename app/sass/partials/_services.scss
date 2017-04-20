@@ -1,0 +1,25 @@
+.services {
+	padding: 55px 0 150px 0;
+	width: 100%;
+	min-height: 550px;
+	background-color: #e8e8e8;
+	text-align: center;
+	color: $secondary_font_color;
+	img {margin-top: 55px;}
+	h3.title {
+		margin-bottom: 20px;
+		font: 400 24px $secondary_font;
+	}
+	p {font: 400 13px secondary_font;}
+}
+h2.title {
+	font: 400 30px $secondary_font;
+	&:after {
+		display: block;
+		content: '';
+		max-width: 370px;
+		height: 7px;
+		margin: 25px auto 0 auto;
+		background-image: url('../../img/delimiter-1.png');
+	}
+}

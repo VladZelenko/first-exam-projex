@@ -8614,6 +8614,31 @@ button.close {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
 
+.services {
+  padding: 55px 0 150px 0;
+  width: 100%;
+  min-height: 550px;
+  background-color: #e8e8e8;
+  text-align: center;
+  color: #000000; }
+  .services img {
+    margin-top: 55px; }
+  .services h3.title {
+    margin-bottom: 20px;
+    font: 400 24px "Quicksand", sans-serif; }
+  .services p {
+    font: 400 13px secondary_font; }
+
+h2.title {
+  font: 400 30px "Quicksand", sans-serif; }
+  h2.title:after {
+    display: block;
+    content: '';
+    max-width: 370px;
+    height: 7px;
+    margin: 25px auto 0 auto;
+    background-image: url("../../img/delimiter-1.png"); }
+
 .hero-btn {
   margin: 20px;
   display: block;
