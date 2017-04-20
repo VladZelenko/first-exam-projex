@@ -11,15 +11,15 @@
 		font: 400 24px $secondary_font;
 	}
 	p {font: 400 13px secondary_font;}
-}
-h2.title {
-	font: 400 30px $secondary_font;
-	&:after {
-		display: block;
-		content: '';
-		max-width: 370px;
-		height: 7px;
-		margin: 25px auto 0 auto;
-		background-image: url('../../img/delimiter-1.png');
+	h2.title {
+		font: 400 30px $secondary_font;
+		&:after {
+			display: block;
+			content: '';
+			max-width: 370px;
+			height: 7px;
+			margin: 25px auto 0 auto;
+			background-image: url('../../img/delimiter-1.png');
+		}
 	}
 }
