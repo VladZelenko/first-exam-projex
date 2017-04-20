@@ -8,10 +8,56 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+			<div class="flexbox">
+				<h1 class="logo">
+					<a href="#">
+						<img src="img/logo.png" alt="Logotype">
+					</a>
+				</h1>
+				<nav class="top-nav">
+					<a href="#" class="open-btn" id="open-btn-nav" onclick="openNav()">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</a>
+					<div id="nav" class="overlay">
+						<a href="#" class="close-btn" onclick="closeNav()">&times;</a>
+						<ul class="overlay__content">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Our Team</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
 
-<script src="libs/jquery/dist/jquery.min.js"></script>
-<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-<script src="libs/slick-carousel/slick/slick.js"></script>
-<script src="js/custom.js"></script>
+	<section class="hero">
+		<div class="container">
+			<div class="row hero-slider">
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<h2 class="title">ONE PAGE IS ALL THAT YOU NEED</h2>
+					<p>
+						Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet felis. Aenean neque elit, blandit quis tempor eu, feugiat rhoncus lectus. Quisque sit amet pretium risus.
+					</p>
+					<ul class="hero-btn">
+						<li><a href="#">OUR TEAM</a></li>
+						<li><a href="#">CONTACT US</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6"></div>
+			</div>
+		</div>
+	</section>
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+	<script src="libs/slick-carousel/slick/slick.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 </html>

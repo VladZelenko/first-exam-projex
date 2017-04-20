@@ -8539,3 +8539,117 @@ button.close {
     .slick-dots li.slick-active button:before {
       color: black;
       opacity: 0.75; }
+
+.header {
+  width: 100%;
+  background-color: #ff5959; }
+
+.close-btn {
+  display: none; }
+
+.flexbox {
+  min-height: 110px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px; }
+
+.logo {
+  margin: 0; }
+
+.overlay__content {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap; }
+  .overlay__content li a {
+    padding: 5px 35px;
+    color: #ffffff;
+    font: 600 18px "Roboto", sans-serif;
+    cursor: pointer; }
+    .overlay__content li a:hover {
+      text-decoration: none;
+      background-color: #fc7d7d;
+      -webkit-border-radius: 10px 9px 9px 10px;
+              border-radius: 10px 9px 9px 10px;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out; }
+
+@media only screen and (max-width: 1200px) {
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    overflow-x: hidden;
+    z-index: 5;
+    -webkit-transition: all .7s;
+    transition: all .7s; }
+    .overlay a {
+      display: block;
+      padding: 10px;
+      color: #ccc;
+      font-size: 30px;
+      text-decoration: none; }
+      .overlay a:hover, .overlay a:focus {
+        color: #fff;
+        -webkit-transition: all .5s ease-in-out .1s;
+        transition: all .5s ease-in-out .1s; }
+    .overlay .close-btn {
+      position: absolute;
+      top: 50px;
+      right: 7px;
+      font-size: 50px; }
+  .overlay__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center; }
+    .overlay__content li {
+      padding: 10px 0; }
+  #open-btn-nav {
+    display: block;
+    padding: 7px;
+    width: 35px;
+    height: 30px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+    #open-btn-nav .line {
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #000; }
+    #open-btn-nav .line:nth-child(2) {
+      margin: 3px 0; } }

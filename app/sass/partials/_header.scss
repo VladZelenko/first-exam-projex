@@ -1,0 +1,32 @@
+.header {
+	width: 100%;
+	background-color: $accent_color;
+}
+//nav menu
+.close-btn {display: none;}
+.flexbox {
+	min-height: 110px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px
+}
+.logo {margin: 0;}
+.overlay__content {
+	margin-top: 30px;
+	display: flex;
+	flex-flow: row nowrap;
+	li a{
+		padding: 5px 35px;
+		color: $primary_font_color;
+		font: 600 18px $primary_font;
+		cursor: pointer;
+		&:hover {
+			text-decoration: none;
+			background-color: #fc7d7d;
+			border-radius: 10px 9px 9px 10px;
+			transition: all .4s ease-in-out;
+		}
+	}
+}
