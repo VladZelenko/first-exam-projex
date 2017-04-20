@@ -1,0 +1,31 @@
+.team {
+	padding: 60px 0 115px 0;
+	width: 100%;
+	min-height: 755px;
+	background-color: #e8e8e8;
+	text-align: center;
+	h3.title {font: 700 24px $secondary_font;}
+	.subtitle {font: 300 16px $secondary_font;}
+	p  {font: 300 13px $secondary_font;}
+	.social-icons {
+		width: 170px;
+		margin: 0 auto;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		a:hover {text-decoration: none;}
+	}
+	.fa {
+		display: block;
+		width: 24px;
+		line-height: 24px;
+		border-radius: 50%;
+		font-size: 14px;
+		color: $primary_font_color;
+	}
+	.fa-twitter {background-color: #77ccf0;}
+	.fa-pinterest-p {background-color: #eb5756;}
+	.fa-facebook {background-color: #547bbd;}
+	.fa-google-plus {background-color: #4c4c4c;}
+	.fa-linkedin {background-color: #1385c8;}
+}

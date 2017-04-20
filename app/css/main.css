@@ -8614,23 +8614,23 @@ button.close {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
 
-.services {
+.services, .team {
   padding: 55px 0 150px 0;
   width: 100%;
   min-height: 550px;
   background-color: #e8e8e8;
   text-align: center;
   color: #000000; }
-  .services img {
+  .services img, .team img {
     margin-top: 55px; }
-  .services h3.title {
+  .services h3.title, .team h3.title {
     margin-bottom: 20px;
     font: 400 24px "Quicksand", sans-serif; }
-  .services p {
+  .services p, .team p {
     font: 400 13px secondary_font; }
-  .services h2.title {
+  .services h2.title, .team h2.title {
     font: 400 30px "Quicksand", sans-serif; }
-    .services h2.title:after {
+    .services h2.title:after, .team h2.title:after {
       display: block;
       content: '';
       max-width: 370px;
@@ -8655,6 +8655,55 @@ button.close {
     width: 100%;
     height: 100%;
     background: rgba(248, 112, 38, 0.9); }
+
+.team {
+  padding: 60px 0 115px 0;
+  width: 100%;
+  min-height: 755px;
+  background-color: #e8e8e8;
+  text-align: center; }
+  .team h3.title {
+    font: 700 24px "Quicksand", sans-serif; }
+  .team .subtitle {
+    font: 300 16px "Quicksand", sans-serif; }
+  .team p {
+    font: 300 13px "Quicksand", sans-serif; }
+  .team .social-icons {
+    width: 170px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .team .social-icons a:hover {
+      text-decoration: none; }
+  .team .fa {
+    display: block;
+    width: 24px;
+    line-height: 24px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    font-size: 14px;
+    color: #ffffff; }
+  .team .fa-twitter {
+    background-color: #77ccf0; }
+  .team .fa-pinterest-p {
+    background-color: #eb5756; }
+  .team .fa-facebook {
+    background-color: #547bbd; }
+  .team .fa-google-plus {
+    background-color: #4c4c4c; }
+  .team .fa-linkedin {
+    background-color: #1385c8; }
 
 .hero-btn {
   margin: 20px;
