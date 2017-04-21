@@ -1,4 +1,20 @@
 .news {
 	width: 100%;
 	min-height: 730px;
+	color: $primary_font_color;
+	img {margin-top: 35px;}
+	h3.title {font: 700 18px $secondary_font;}
+	.fa-calendar {margin-right: 10px;}
+	.time {
+		display: block;
+		margin-bottom: 15px;
+		font: 300 13px/24px $secondary_font;
+	}
+	p {font: 400 13px $secondary_font;}
+	.post-info {
+		display: flex;
+		a {color: $primary_font_color;}
+		.fa {margin-right: 15px;}
+		li {margin-right: 40px;}
+	}
 }

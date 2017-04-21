@@ -8638,32 +8638,32 @@ button.close {
       margin: 25px auto 0 auto;
       background-image: url("../../img/delimiter-1.png"); }
 
-.portfolio {
+.portfolio, .news {
   padding: 60px 0 100px 0;
   width: 100%;
   min-height: 900px;
   background-color: #ff5959; }
-  .portfolio h2.title {
+  .portfolio h2.title, .news h2.title {
     color: #ffffff;
     font: 400 30px "Quicksand", sans-serif;
     text-align: center; }
-    .portfolio h2.title:after {
+    .portfolio h2.title:after, .news h2.title:after {
       display: block;
       content: '';
       width: 370px;
       height: 7px;
       margin: 25px auto 25px auto;
       background: url("../../img/delimiter-2.png"); }
-  .portfolio .img-box {
+  .portfolio .img-box, .news .img-box {
     position: relative;
     overflow: hidden; }
-    .portfolio .img-box:hover .overlay {
+    .portfolio .img-box:hover .overlay, .news .img-box:hover .overlay {
       opacity: 1;
       top: 0;
       -webkit-transform: scale(1);
           -ms-transform: scale(1);
               transform: scale(1); }
-  .portfolio .overlay {
+  .portfolio .overlay, .news .overlay {
     position: absolute;
     left: 0;
     top: 0;
@@ -8678,7 +8678,7 @@ button.close {
         -ms-transform: scale(0);
             transform: scale(0);
     opacity: 0; }
-  .portfolio .sample-box {
+  .portfolio .sample-box, .news .sample-box {
     margin: 25px 0 65px 0; }
 
 .team {
@@ -8732,7 +8732,31 @@ button.close {
 
 .news {
   width: 100%;
-  min-height: 730px; }
+  min-height: 730px;
+  color: #ffffff; }
+  .news img {
+    margin-top: 35px; }
+  .news h3.title {
+    font: 700 18px "Quicksand", sans-serif; }
+  .news .fa-calendar {
+    margin-right: 10px; }
+  .news .time {
+    display: block;
+    margin-bottom: 15px;
+    font: 300 13px/24px "Quicksand", sans-serif; }
+  .news p {
+    font: 400 13px "Quicksand", sans-serif; }
+  .news .post-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .news .post-info a {
+      color: #ffffff; }
+    .news .post-info .fa {
+      margin-right: 15px; }
+    .news .post-info li {
+      margin-right: 40px; }
 
 .hero-btn {
   margin: 20px;
