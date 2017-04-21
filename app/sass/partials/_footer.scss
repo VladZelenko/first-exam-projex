@@ -1,0 +1,10 @@
+.footer {
+	width: 100%;
+	min-height: 115px;
+	background-color: $accent_color;
+	color: $primary_font_color;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}

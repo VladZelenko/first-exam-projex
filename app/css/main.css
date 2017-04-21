@@ -8793,6 +8793,29 @@ button.close {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
 
+.footer {
+  width: 100%;
+  min-height: 115px;
+  background-color: #ff5959;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 .primary-btn {
   margin: 20px;
   display: block;
@@ -8823,7 +8846,7 @@ button.close {
   -webkit-border-radius: 9px;
           border-radius: 9px; }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
   .overlay {
     position: fixed;
     top: 0;
