@@ -8614,23 +8614,23 @@ button.close {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
 
-.services, .team {
+.services, .team, .contact {
   padding: 55px 0 150px 0;
   width: 100%;
   min-height: 550px;
   background-color: #e8e8e8;
   text-align: center;
   color: #000000; }
-  .services img, .team img {
+  .services img, .team img, .contact img {
     margin-top: 55px; }
-  .services h3.title, .team h3.title {
+  .services h3.title, .team h3.title, .contact h3.title {
     margin-bottom: 20px;
     font: 400 24px "Quicksand", sans-serif; }
-  .services p, .team p {
+  .services p, .team p, .contact p {
     font: 400 13px secondary_font; }
-  .services h2.title, .team h2.title {
+  .services h2.title, .team h2.title, .contact h2.title {
     font: 400 30px "Quicksand", sans-serif; }
-    .services h2.title:after, .team h2.title:after {
+    .services h2.title:after, .team h2.title:after, .contact h2.title:after {
       display: block;
       content: '';
       max-width: 370px;
@@ -8758,7 +8758,42 @@ button.close {
     .news .post-info li {
       margin-right: 40px; }
 
-.hero-btn {
+.contact {
+  width: 100%;
+  min-height: 555px;
+  color: #000000; }
+  .contact .contact-information, .contact .contact-form {
+    margin-top: 55px;
+    text-align: left; }
+  .contact .contact-form li {
+    margin-bottom: 15px; }
+  .contact h3.title {
+    margin-top: 0;
+    font: 400 24px "Quicksand", sans-serif; }
+  .contact p {
+    font: 400 13px/18px "Quicksand", sans-serif; }
+  .contact .location li {
+    margin-top: 15px; }
+  .contact .location a {
+    color: #000000; }
+    .contact .location a:hover {
+      text-decoration: none; }
+  .contact .fa {
+    margin-right: 15px;
+    color: #000000;
+    font-size: 18px; }
+  .contact .box-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+
+.primary-btn {
   margin: 20px;
   display: block;
   width: 170px;
@@ -8768,14 +8803,25 @@ button.close {
   border: 3px solid #ff5959;
   -webkit-border-radius: 9px;
           border-radius: 9px;
-  text-align: center; }
-  .hero-btn:hover, .hero-btn:focus {
+  text-align: center;
+  text-transform: uppercase; }
+  .primary-btn:hover, .primary-btn:focus {
     text-decoration: none;
     color: #000000;
     background-color: #ffffff;
     border: 3px solid #ff5959;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out; }
+
+.contact-form input, .contact-form textarea {
+  max-width: 565px;
+  min-width: 300px;
+  width: 100%;
+  padding: 15px;
+  resize: none;
+  border: none;
+  -webkit-border-radius: 9px;
+          border-radius: 9px; }
 
 @media only screen and (max-width: 1200px) {
   .overlay {

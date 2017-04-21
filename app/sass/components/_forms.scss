@@ -1,0 +1,11 @@
+	.contact-form {
+		input, textarea {
+			max-width: 565px;
+			min-width: 300px;
+			width: 100%;
+			padding: 15px;
+			resize: none;
+			border:  none;
+			border-radius: 9px;
+		}
+	}

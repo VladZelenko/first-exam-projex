@@ -1,0 +1,33 @@
+.contact {
+	width: 100%;
+	min-height: 555px;
+	color: $secondary_font_color;
+	.contact-information, .contact-form {
+		margin-top: 55px;
+		text-align: left;
+	}
+	.contact-form li {margin-bottom: 15px;}
+	h3.title {
+		margin-top: 0;
+		font: 400 24px $secondary_font;
+	}
+	p {font: 400 13px/18px $secondary_font;}
+	.location {
+		li {
+			margin-top: 15px;
+		}
+		a {
+			color: $secondary_font_color;
+			&:hover {text-decoration: none;}
+		}
+	}
+	.fa {
+		margin-right: 15px;
+		color: $secondary_font_color;
+		font-size: 18px;
+	}
+	.box-btn {
+			display: flex;
+			flex-flow: row wrap;
+	}
+}
