@@ -8958,6 +8958,8 @@ button.close {
             justify-content: center; } }
 
 @media (min-width: 320px) and (max-width: 550px) {
+  .services h2.title:after, .team h2.title:after, .contact h2.title:after, .portfolio h2.title:after, .news h2.title:after {
+    display: none; }
   .hero {
     padding: 30px; } }
 

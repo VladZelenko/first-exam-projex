@@ -68,12 +68,10 @@
 }
 //==================HERO===========================================//
 @media (min-width: 320px) and (max-width: 550px) {
-	.hero {
-		padding: 30px;
-		.flex-box {
-
-		}
+	.services, .team, .contact, .portfolio, .news {
+		h2.title:after {display: none;}
 	}
+	.hero {padding: 30px;}
 }
 @media (min-width: 375px) and (max-width: 1070px) {
 	.box-btn {justify-content: space-around;}
