@@ -8638,6 +8638,20 @@ button.close {
       -webkit-order: 1;
           -ms-flex-order: 1;
               order: 1; }
+  .hero .box-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
 .services, .team, .contact {
   padding: 55px 0 150px 0;
@@ -8917,9 +8931,7 @@ button.close {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: relative;
-    top: 30%;
-    width: 100%;
+    height: 100%;
     text-align: center; }
     .overlay__content li {
       padding: 10px 0; }
@@ -8939,35 +8951,16 @@ button.close {
     #open-btn-nav .line:nth-child(2) {
       margin: 3px 0; } }
 
-@media only screen and (min-width: 990px) and (max-width: 1200px) {
-  .services .md-pos, .news .md-pos {
-    width: 100%;
-    text-align: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: column wrap;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; } }
-
 @media (min-width: 320px) and (max-width: 550px) {
   .services h2.title:after, .team h2.title:after, .contact h2.title:after, .portfolio h2.title:after, .news h2.title:after {
     display: none; }
   .hero {
-    padding: 30px; } }
-
-@media (min-width: 375px) and (max-width: 1070px) {
-  .box-btn {
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; } }
+    padding: 30px; }
+    .hero .box-btn {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 @media (min-width: 1070px) and (max-width: 2880px) {
   .hero .flex-box .col-1 {
@@ -8981,11 +8974,4 @@ button.close {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
         -ms-flex-order: 2;
-            order: 2; }
-  .box-btn {
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
-    .box-btn li {
-      margin-right: 20px; } }
+            order: 2; } }

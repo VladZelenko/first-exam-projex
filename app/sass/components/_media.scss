@@ -33,9 +33,7 @@
 	.overlay__content {
 		flex-flow: column nowrap;
 		justify-content: center;
-		position: relative;
-		top: 30%;	// Indent the top menu
-		width: 100%;
+		height: 100%;
 		text-align: center;
 		li {padding: 10px 0;}
 	}
@@ -55,26 +53,16 @@
 		.line:nth-child(2) {margin: 3px 0;}
 	}
 }
-@media only screen and (min-width: 990px) and (max-width: 1200px) {
-	.services, .news {
-		.md-pos {
-			width: 100%;
-			text-align: center;
-			display: flex;
-			flex-flow: column wrap;
-			justify-content: center;
-		}
-	}
-}
 //==================HERO===========================================//
+
 @media (min-width: 320px) and (max-width: 550px) {
 	.services, .team, .contact, .portfolio, .news {
 		h2.title:after {display: none;}
 	}
-	.hero {padding: 30px;}
-}
-@media (min-width: 375px) and (max-width: 1070px) {
-	.box-btn {justify-content: space-around;}
+	.hero {
+		padding: 30px;
+		.box-btn {justify-content: center;}
+	}
 }
 @media (min-width: 1070px) and (max-width: 2880px) {
 	.hero {
@@ -86,10 +74,6 @@
 			}
 			.col-2 {order: 2;}
 		}
-	}
-	.box-btn {
-		justify-content: flex-start;
-		li {margin-right: 20px;}
 	}
 }
 //==================HERO the END===========================================//
